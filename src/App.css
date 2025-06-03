@@ -1,21 +1,12 @@
-:root {
-  --font-main: 'Inter', sans-serif;
-  --color-bg: #ffffff;
-  --color-bg-secondary: #f7f8f9;
-  --color-border: #e5e7eb;
-  --color-text: #111827;
-  --color-muted: #6b7280;
-  --color-primary: #10a37f;
-  --color-button: #10a37f;
-  --color-button-text: #ffffff;
-  --radius-md: 0.5rem;
-  --spacing-md: 1rem;
+
+*{
+  box-sizing: border-box;
 }
 
-body {
-  font-family: var(--font-main);
-  background-color: var(--color-bg);
+html, body{
+  width: 100%;
   margin: 0;
   padding: 0;
-  color: var(--color-text);
 }
+
+
