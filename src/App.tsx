@@ -1,5 +1,5 @@
 import './App.css'
-import { Aside } from './components/aside/Aside'
+import { Aside } from './components/aside/aside'
 
 function App() {
 
