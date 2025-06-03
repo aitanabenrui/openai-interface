@@ -1,0 +1,25 @@
+.custom-button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.custom-button.green {
+  background-color: #10A37F; /* Verde brillante */
+  color: white;
+}
+
+.custom-button.green:hover:not(:disabled) {
+  background-color: #1A7F64;
+}
+
+.custom-button.gray {
+  background-color: #ECECF1; /* Gris */
+  color: #353740;
+  cursor: not-allowed;
+}

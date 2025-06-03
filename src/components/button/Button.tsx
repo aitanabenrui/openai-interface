@@ -1,18 +1,25 @@
+import React from 'react';
+import './Button.css';
+
 type ButtonProps = {
   label: string;
-  variant?: 'green' | 'white';
+  variant?: 'green' | 'gray';
+  onClick?: () => void;
+  disabled?: boolean;
 };
 
-export const Button = ({ label, variant = 'green' }: ButtonProps) => {
-  const base = `px-4 py-2 rounded-md text-sm font-semibold transition`;
-
-  const variants = {
-    green: `bg-[var(--color-green)] text-white hover:brightness-95`,
-    white: `bg-[var(--color-white-bg)] text-[var(--color-text-dark)] hover:bg-[var(--color-white-hover)]`,
-  };
-
+export const Button: React.FC<ButtonProps> = ({
+  label,
+  variant = 'green',
+  onClick,
+  disabled = false,
+}) => {
   return (
-    <button className={`${base} ${variants[variant]}`}>
+    <button
+      className={`custom-button ${variant}`}
+      onClick={onClick}
+      disabled={disabled}
+    >
       {label}
     </button>
   );

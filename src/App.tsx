@@ -5,10 +5,8 @@ function App() {
 
   return (
     <>
-    <div className="flex gap-2">
-      <Button label="Add payment details" variant="green" />
-      <Button label="View usage" variant="white" />
-    </div>
+   <Button label="Add payment details" variant="green" onClick={() => alert('¡Compra!')} />
+<Button label="View usage" variant="gray" disabled />
     </>
   )
 }
