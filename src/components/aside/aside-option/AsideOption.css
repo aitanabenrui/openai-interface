@@ -26,6 +26,11 @@ h2{
     background-color: #e3e4e8;
 }
 
+.aside_option_container:hover h2{
+    color: #616161;
+}
+
+
 .aside_option_container:active{
     box-shadow: inset 0 0 0 2px #49a081;
 
