@@ -1,18 +1,19 @@
-import '../../App.css'
-
 type ButtonProps = {
-    label: string; 
-    variant?: 'solid' | 'outline';
-}
+  label: string;
+  variant?: 'green' | 'white';
+};
 
-export const Button = ({label, variant = 'solid'} : ButtonProps) => {
-    const base = 'px-4 py-2 rounded-md font-medium text-sm transition'; 
-    const solid = 'bg-[var(--color-button)] text-[var(--color-button-text)] hover:brightness-95';
-    const outline =  'border border-[var(--color-button)] text-[var(--color-button)] hover:bg-[var(--color-button)] hover:text-white'; 
-    
-    return (
-        <button className={`${base} ${variant === 'solid' ? solid : outline}`}>
-            {label}
-        </button>
-    )
-}
+export const Button = ({ label, variant = 'green' }: ButtonProps) => {
+  const base = `px-4 py-2 rounded-md text-sm font-semibold transition`;
+
+  const variants = {
+    green: `bg-[var(--color-green)] text-white hover:brightness-95`,
+    white: `bg-[var(--color-white-bg)] text-[var(--color-text-dark)] hover:bg-[var(--color-white-hover)]`,
+  };
+
+  return (
+    <button className={`${base} ${variants[variant]}`}>
+      {label}
+    </button>
+  );
+};

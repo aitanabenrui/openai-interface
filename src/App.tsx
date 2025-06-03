@@ -5,7 +5,10 @@ function App() {
 
   return (
     <>
-     <Button label='aitana button' variant='outline'></Button>
+    <div className="flex gap-2">
+      <Button label="Add payment details" variant="green" />
+      <Button label="View usage" variant="white" />
+    </div>
     </>
   )
 }
