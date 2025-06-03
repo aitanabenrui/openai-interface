@@ -1,3 +1,5 @@
+import './NavButton.css'
+
 type NavButtonProps = {
   label: string;
 };
@@ -5,7 +7,7 @@ type NavButtonProps = {
 export const NavButton = ({label}: NavButtonProps) => {
 
   return (
-    <button>
+    <button className='nav-button'>
       {label}
     </button>
   );

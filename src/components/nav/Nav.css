@@ -1,0 +1,8 @@
+
+.nav {
+    display: flex;
+    background-color: #F5F5F5;
+    min-height: 54px;
+    width: auto;
+    padding: 0 0.13rem;
+}

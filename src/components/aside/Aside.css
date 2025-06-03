@@ -3,12 +3,11 @@
 }
 
 aside {
-    width: 100%;
-    height: 100vh;
+    width: 210px;
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    background-color: #f6f6f6;
+    background-color: #F5F5F5;
     justify-content: space-between;
 }
 
@@ -24,4 +23,12 @@ aside {
     height: 1px;
     background-color: #e3e4e8;
     margin-block: 0.5rem;
+}
+
+.aside_nav {
+    overflow-y: auto;
+}
+
+.aside_miscellaneous {
+    margin-top: 1rem;
 }
