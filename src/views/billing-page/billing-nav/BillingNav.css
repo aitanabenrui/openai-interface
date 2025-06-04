@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+.billing--nav__title {
+    font-family: 'Inter';
+    color: rgb(53, 55, 64);
+    font-size: 1.13rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-left: 0.37rem;
+}
+
+.billing--nav__buttons {
+    display: flex;
+    gap: 0.2rem;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}

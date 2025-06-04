@@ -1,8 +1,12 @@
+import { BillingNav } from "./billing-nav/BillingNav";
+import './BillingPage.css'
 
 export const BillingPage = () => {
     return (
         <>
-        <p>BillingPage</p>
+        <div className="billing--nav">
+            <BillingNav/>
+        </div>
         </>
     );
 }

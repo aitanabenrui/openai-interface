@@ -27,6 +27,10 @@ h2{
     background-color: #ECECF0;
 }
 
+.aside_option_container {
+    display: flex;
+}
+
 .aside_option_container:hover h2{
     color: #3b3b43;
 }

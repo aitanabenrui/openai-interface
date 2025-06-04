@@ -3,8 +3,8 @@ import { Icons } from '../../icons/Icons';
 import type { IconName } from '../../icons/Icons';
 
 interface AsideOptionProps{
-    text: string
-    icon?: IconName
+    text: string;
+    icon?: IconName;
 }
 
 export const AsideOption = ({text, icon}:AsideOptionProps) => {
