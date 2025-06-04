@@ -36,6 +36,7 @@
 
 .nav-right_settings {
     display: flex;
+    aspect-ratio: 1/1;
     align-items: center;
     justify-content: center;
     width: 28px;
