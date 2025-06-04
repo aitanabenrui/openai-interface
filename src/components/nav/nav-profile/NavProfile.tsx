@@ -1,4 +1,5 @@
 import './NavProfile.css'
+import chevron from '../../../assets/icons/chevron.svg'
 
 interface NavProfileProps{
     text: string;
@@ -16,6 +17,7 @@ export const NavProfile = ({text, icon}:NavProfileProps) => {
                     </div>
                 )}
                 <span className="nav-profile-text">{text}</span>
+                <img className='nav-profile-chevron' src={chevron} alt='chevron' />
             </div>
         </button>
     )

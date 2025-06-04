@@ -8,6 +8,8 @@ export const Nav = () => {
         <div className='nav'>
             <div className='nav-left'>
                 <NavProfile text='Marcus Zucus' icon={true} />
+                <p>/</p>
+                <NavProfile text='Empresaurios' icon={false} />
             </div>
             <div className='nav-right'>
                 <NavButton label='Playground'></NavButton>
@@ -16,6 +18,9 @@ export const Nav = () => {
                 <NavButton label='API reference'></NavButton>
                 <div className='nav-right_settings'>
                     <img className='nav-right_settings-icon' src={settings} alt='settings' />
+                </div>
+                <div className='nav-right_profile'>
+                    M
                 </div>
             </div>
         </div>

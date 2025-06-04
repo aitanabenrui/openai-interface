@@ -24,6 +24,7 @@
     margin-left: 1.5rem;
     display: flex;
     justify-content: flex-start;
+    gap: 0.8rem;
 }
 
 .nav-right_settings-icon {
@@ -41,4 +42,27 @@
     height: 28px;
     border-radius: 50%;
     background-color:rgb(227, 227, 235);
+}
+
+.nav-left p {
+    font-size: 1rem;
+    font-family: 'Inter';
+    color: rgb(172, 172, 190);
+    font-weight: 600;
+}
+
+.nav-right_profile {
+    width: 26px;
+    height: 26px;
+    font-family: 'Inter';
+    border-radius: 50%;
+    background-color: rgb(79, 103, 113);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    margin-right: 8px;
+    text-align: center;
+    aspect-ratio: 1/1;
 }

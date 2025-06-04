@@ -1,6 +1,7 @@
 .nav-profile {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: 'Inter', sans-serif;
     color: #333;
 }
@@ -8,6 +9,7 @@
 .nav-profile-icon {
     width: 26px;
     height: 26px;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     background-color: rgb(32, 33, 35);
     color: white;
@@ -36,4 +38,10 @@
 
 .nav-profile-button:hover {
     background-color: #ECECF0;
+}
+
+.nav-profile-chevron {
+    width:15px;
+    height: 15px;
+    margin-left: 0.4rem;
 }
