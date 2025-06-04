@@ -4,11 +4,15 @@
     justify-content: center;
     font-family: 'Inter', sans-serif;
     color: #333;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    transition: all 0.3s ease;
+    min-height: 2.4rem;
 }
 
 .nav-profile-icon {
-    width: 26px;
-    height: 26px;
+    width: 25px;
+    height: 25px;
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-color: rgb(32, 33, 35);
@@ -29,15 +33,15 @@
 }
 
 .nav-profile-button {
+    box-sizing: border-box;
     border: #33333300;
     border-radius: 0.6rem;
     background-color:#f6f6f6;
-    transition: all 0.3s ease;
     cursor: pointer;
 }
 
-.nav-profile-button:hover {
-    background-color: #ECECF0;
+.nav-profile:hover {
+    background-color: rgb(227, 227, 235);
 }
 
 .nav-profile-chevron {
