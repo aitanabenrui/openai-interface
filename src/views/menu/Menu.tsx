@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
 import { Aside } from "../../components/aside/aside";
-import { Nav } from "../../components/nav/Nav";
 import './Menu.css'
+import { Nav } from "../../components/nav/nav";
 
 
 export const Menu = () => {
