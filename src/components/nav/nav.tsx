@@ -1,6 +1,7 @@
 import './Nav.css'
 import { NavButton } from './nav-button/NavButton'
 import { NavProfile } from './nav-profile/NavProfile'
+import settings from '../../assets/icons/settings.png'
 
 export const Nav = () => {
     return (
@@ -13,6 +14,9 @@ export const Nav = () => {
                 <NavButton label='Dashboard'></NavButton>
                 <NavButton label='Docs'></NavButton>
                 <NavButton label='API reference'></NavButton>
+                <div className='nav-right_settings'>
+                    <img className='nav-right_settings-icon' src={settings} alt='settings' />
+                </div>
             </div>
         </div>
     )

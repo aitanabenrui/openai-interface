@@ -8,6 +8,7 @@
     min-height: 54px;
     width: auto;
     padding: 0 0.13rem;
+    margin-right: 1rem;
 }
 
 .nav-right {
@@ -15,10 +16,29 @@
     color: rgb(110, 110, 128);
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
 }
 
 .nav-left {
     margin-left: 1.5rem;
     display: flex;
     justify-content: flex-start;
+}
+
+.nav-right_settings-icon {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.nav-right_settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color:rgb(227, 227, 235);
 }
