@@ -1,0 +1,39 @@
+.nav-profile {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+.nav-profile-icon {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: rgb(32, 33, 35);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.nav-profile-text {
+    font-size: 0.88rem;
+    font-family: 'Inter', sans-serif;
+    color: rgb(53, 55, 64);
+    font-weight: 600;
+}
+
+.nav-profile-button {
+    border: #33333300;
+    border-radius: 0.6rem;
+    background-color:#f6f6f6;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.nav-profile-button:hover {
+    background-color: #ECECF0;
+}

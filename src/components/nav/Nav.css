@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
 
 .nav {
     display: flex;
+    font-size: 0.88rem;
+    justify-content: space-between;
     background-color: #F5F5F5;
     min-height: 54px;
     width: auto;
     padding: 0 0.13rem;
+}
+
+.nav-right {
+    padding: 0 0.13rem;
+    color: rgb(110, 110, 128);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-left {
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
 }
