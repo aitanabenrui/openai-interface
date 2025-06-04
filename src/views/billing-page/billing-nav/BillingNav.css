@@ -13,5 +13,21 @@
     display: flex;
     gap: 0.2rem;
     margin: 0;
-    padding-bottom: 0.5rem;
+}
+
+.billing--nav__buttons > * {
+    padding: 0.5rem;
+    position: relative;
+    font-weight: 500;
+    color: #6b7280; /* Gris por defecto */
+    cursor: pointer;
+    transition: color 0.2s ease;
+    border-bottom: 1px solid rgba(124, 124, 124, 0);
+    
+}
+
+.billing--nav__buttons > *:hover {
+    border-bottom: 1px solid rgb(124, 124, 124);
+    font-weight: 600;
+    color: rgb(44, 44, 44);
 }

@@ -1,0 +1,104 @@
+.billing--overview {
+    font-family: 'Inter';
+    padding-left: 1.7rem;
+}
+
+.billing--overview h3 {
+    font-size: 1.25rem;
+    color: rgb(32, 33, 35);
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.billing--overview__credit h5 {
+    display: flex;
+    font-size: 0.875rem;
+    color: rgb(53, 55, 64);
+    margin-bottom: 0rem;
+    margin-top: 0;
+    align-items: center;
+}
+
+.info-icon {
+    width: 15px;
+    aspect-ratio: 1/1;
+    display: block;
+    margin-bottom: 0rem;
+}
+
+.billing--overview__credit {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.billing--overview__number {
+    font-family: 'Inter' Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: rgb(53, 55, 64);
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+}
+
+.billing--overview__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.billing--overview__buttons Button {
+    font-size: 0.88rem;
+    margin-left: 0;
+}
+
+.billing--overview__warning Button {
+    font-size: 0.88rem;
+}
+
+.billing--overview__warning {
+    max-width: 60vw;
+    font-family: 'Inter';
+    color: rgb(53, 55, 64);
+    border: 1px solid rgb(238, 238, 238) ;
+    border-radius: 8px;
+    padding: 1rem ;
+}
+
+.billing--overview__warning p {
+    padding-left: 1.5rem;
+    margin-top: 0.4rem;
+    font-family: 'Inter';
+}
+
+.billing--overview__warning Button {
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+}
+
+.billing--overview__warning__title img {
+    width: 18px;
+    aspect-ratio: 1/1;
+}
+
+.billing--overview__warning__title h3 {
+    margin: 0;
+    font-size: 1.13rem;
+    color: rgb(32, 33, 35);
+    font-weight: 600;
+}
+
+.billing--overview__warning__title {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.billing--overview__footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide en dos columnas de igual tamaño */
+    gap: 4rem; /* Espacio entre las columnas */
+    margin-top: 2rem; /* Añadir algo de separación */
+}

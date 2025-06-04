@@ -2,7 +2,14 @@
 
 .billing--nav {
     font-family: 'Inter';
-    margin-left: 1.7rem;
-    margin-top: 1rem;
-    border-bottom: 1px solid rgb(214, 214, 214);
+    padding-left: 1.7rem;
+    margin-top: 1.23rem;
+    border-bottom: 1px solid  rgb(238, 238, 238);
+}
+
+.billing--overview--page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.75rem;
 }

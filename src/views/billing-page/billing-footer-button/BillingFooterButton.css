@@ -1,0 +1,42 @@
+.billing-footer-button {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.billing-footer-button:hover {
+    background-color: #f5f5f5;
+}
+
+.billing-footer-button__icon {
+    background-color: #fdfdfd;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.billing-footer-button__icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.billing-footer-button__text h4 {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #353740;
+    font-weight: 600;
+}
+
+.billing-footer-button__text p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #6b7280;
+}
