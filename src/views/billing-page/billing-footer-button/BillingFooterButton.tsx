@@ -1,6 +1,6 @@
 import './BillingFooterButton.css'
 import cardIcon from '../../../assets/icons/credit-card.png'
-import prefsIcon from '../../../assets/icons/settings.png'
+import prefsIcon from '../../../assets/icons/settings-grey.png'
 import pricingIcon from '../../../assets/icons/stats.png'
 import billingIcon from '../../../assets/icons/doc.png'
 import usageIcon from '../../../assets/icons/setting-bar.png'

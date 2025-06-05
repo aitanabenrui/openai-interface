@@ -13,7 +13,8 @@
     background-color: #f5f5f5;
 }
 
-.billing-footer-button__icon {
+/* icono con frame del billing footer */
+.billing-footer-button__icon { 
     background-color: #fdfdfd;
     border: 1px solid rgb(238, 238, 238);
     padding: 0.6rem;
