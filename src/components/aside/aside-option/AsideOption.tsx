@@ -14,14 +14,7 @@ const iconMap: { [key in 'cookbook' | 'forum' | 'help']: string } = { //forma de
   help: helpIcon,
 };
 
-export const AsideOption = ({text, icon = 'cookbook'}:AsideOptionProps) => {
-  if (icon === undefined) {
-    return (
-      <div className='aside_option_container'>
-        <h2 className='no-padding'>{text}</h2>
-      </div>
-    );
-  }
+export const AsideOption = ({text, icon}:AsideOptionProps) => {
   return (
     <div className='aside_option_container'>
         <div> 
