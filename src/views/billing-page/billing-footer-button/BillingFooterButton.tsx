@@ -4,6 +4,7 @@ import prefsIcon from '../../../assets/icons/settings-grey.png'
 import pricingIcon from '../../../assets/icons/stats.png'
 import billingIcon from '../../../assets/icons/doc.png'
 import usageIcon from '../../../assets/icons/setting-bar.png'
+import arrowIcon from '../../../assets/icons/arrow.png'
 
 interface BillingFooterButtonProps {
     issue: 'payment' | 'preferences' | 'pricing' | 'billing' | 'usage';
@@ -45,10 +46,14 @@ export const BillingFooterButton = ({issue}:BillingFooterButtonProps) => {
                 <img src={icon} alt={`${issue} icon`} />
             </div>
         <div className="billing-footer-button__text">
+          <div className='billing-footer-button__text-arrow'>
             <h4>{title}</h4>
+            <div className="billing-footer-button__arrow">
+              <img className="arrow-icon" src={arrowIcon} alt="arrow" />
+            </div>
+          </div>
             <p>{subtitle}</p>
         </div>
     </div>
-
     );
 };

@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router';
 import './Aside.css';
 import { AsideOption } from './aside-option/AsideOption';
 
@@ -15,7 +15,9 @@ export const Aside = () => {
             <AsideOption text="Admin Keys"/>
             <AsideOption text="Members"/>
             <AsideOption text="Projects"/>
-            <AsideOption text="Billing"/>
+            <Link to="/BillingPage">
+              <AsideOption text="Billing"/>
+            </Link>
             <AsideOption text="Limits"/>
             <AsideOption text="Usage"/>
             <AsideOption text="Data Controls"/>

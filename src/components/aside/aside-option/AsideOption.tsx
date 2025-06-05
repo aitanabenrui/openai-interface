@@ -2,6 +2,7 @@ import './AsideOption.css';
 import cookbookIcon from '../../../assets/icons/cookbook-icon.png'
 import forumIcon from '../../../assets/icons/forum-icon.png'
 import helpIcon from '../../../assets/icons/help-icon.png'
+import { useLocation } from 'react-router';
 
 interface AsideOptionProps{
     text: string;
@@ -15,8 +16,10 @@ const iconMap: { [key in 'cookbook' | 'forum' | 'help']: string } = { //forma de
 };
 
 export const AsideOption = ({text, icon}:AsideOptionProps) => {
+  const location = useLocation(); // Obtén la ruta actual
+  const isActive = location.pathname.includes(text); // Compara la ruta con el texto del botón
   return (
-    <div className='aside_option_container'>
+    <div className={`aside_option_container ${isActive ? 'active' : ''}`}>
         <div> 
           {icon && <img src={iconMap[icon]} alt={`${icon} icon`} />}
         </div>

@@ -43,6 +43,7 @@
     height: 28px;
     border-radius: 50%;
     background-color:rgb(227, 227, 235);
+    cursor: pointer;
 }
 
 .nav-left p {

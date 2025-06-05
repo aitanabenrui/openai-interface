@@ -42,3 +42,14 @@ aside {
         align-items: center;
     }
 }
+
+/* Eliminar el subrayado y otros estilos de los enlaces, para los estilos de los links */
+a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del texto del contenedor */
+}
+
+/* Estilos de hover si es necesario */
+a:hover {
+  text-decoration: none; /* Asegura que el subrayado no aparezca al pasar el cursor */
+}
